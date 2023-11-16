@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wp-learn-custom-image/custom-image-block",
+  "version": "0.1.0",
+  "title": "WP Learn Custom Image",
+  "category": "widgets",
+  "icon": "cover-image",
+  "description": "Add a custom image block for testing.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "wp-learn-html-api",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
