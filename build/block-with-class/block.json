@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wp-learn-custom-image/block-with-class",
+  "version": "0.1.0",
+  "title": "Custom Image with class",
+  "category": "widgets",
+  "icon": "cover-image",
+  "description": "Add a custom image block with a class attribute for testing.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "wp-learn-custom-image",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

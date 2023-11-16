@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name:       WP Learn Custom Image
- * Description:       Add a custom image block for testing.
+ * Plugin Name:       WP Learn Custom Images
+ * Description:       Custom image blocks for testing.
  * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           0.0.2
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 add_action( 'init', 'wp_learn_custom_image_wp_learn_custom_image_block_init' );
 function wp_learn_custom_image_wp_learn_custom_image_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build/block-without-class' );
+	register_block_type( __DIR__ . '/build/block-with-class' );
 }
 
